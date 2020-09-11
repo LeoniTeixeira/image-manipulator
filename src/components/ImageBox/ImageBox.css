@@ -8,3 +8,19 @@
 .img{
     width: 90vw;
 }
+
+.rot0{
+    transform: rotate(0deg);
+}
+
+.rot90{
+    transform: rotate(90deg);
+}
+
+.rot180{
+    transform: rotate(180deg);
+}
+
+.rot270{
+    transform: rotate(270deg);
+}
