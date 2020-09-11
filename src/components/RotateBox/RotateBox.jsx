@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import { Container } from './styles';
-
 function RotateBox({setRotate, rotate}) {
     function rotateRight(){
         if (rotate < 270 ){
@@ -21,10 +19,11 @@ function RotateBox({setRotate, rotate}) {
     }
 
     return (
-        <>
-        <button onClick={() => {rotateLeft()}}>Left</button>
-        <button onClick={() => {rotateRight()}}>Right</button>
-        </>
+        <div className='box'>
+            <p className='label'>Rotate</p>
+            <button className='btn' onClick={() => {rotateLeft()}}>Left</button>
+            <button className='btn' onClick={() => {rotateRight()}}>Right</button>
+        </div>
     )
 }
 
