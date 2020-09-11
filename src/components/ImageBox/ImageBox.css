@@ -1,0 +1,10 @@
+.img-container{
+    display: flex;
+    width: 90vw;
+    margin: 0.5rem auto;
+    box-shadow: 5px 5px #111;
+}
+
+.img{
+    width: 90vw;
+}
